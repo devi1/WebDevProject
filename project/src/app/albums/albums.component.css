@@ -1,0 +1,44 @@
+ul{
+  margin-left: 500px;
+}
+
+li{
+  color: black;
+  list-style-type: none;
+  transition: all 0.3s ease;
+  width: 830px;
+}
+
+a{
+  color: white;
+  outline: none;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover{
+  color: red;
+}
+
+button{
+  outline: none;
+  background: none;
+  color: gray;
+  border: none;
+  margin-left: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover{
+  color: red;
+}
+
+.fa-trash{
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.fa-trash:hover{
+  color: red;
+}

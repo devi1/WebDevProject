@@ -1,0 +1,112 @@
+/*a{
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  outline: none;
+  margin: 50px;
+  font-size: 50px;
+}
+
+a:hover{
+  color: red;
+}
+
+li{
+  list-style-type: none;
+}
+
+ui{
+  padding: 4px;
+}
+
+ul li{
+  font-size: 50px;
+  margin: 50px;
+  display: inline;
+}*/
+/*------------------------------/*/
+
+
+nav ul{
+  list-style: none;
+}
+
+nav > ul > li{
+  float: left;
+}
+
+nav ul::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+nav ul li a{
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  width: 125px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover{
+  color: red;
+}
+
+nav ul li{
+  transition: all 0.3s ease;
+  margin-left: -40px;
+}
+
+nav ul li:hover{
+  background-color: rgb(200, 200, 200);
+}
+
+nav ul ul{
+  display: none;
+  position: absolute;
+  justify-content:  center;
+  transition: all 0.3s ease;
+}
+
+nav ul li{
+  transition: all 0.3s ease;
+}
+
+
+nav ul li:hover ul{
+  display: block;
+}
+
+.menu-bar{
+  width: inherit;
+  font-size: 30px;
+  transition: all 0.3s ease;
+}
+
+.menu-bar:hover{
+  transform: rotateZ(90deg);
+}
+
+footer{
+  margin-top: 50px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer div{
+  margin: 10px;
+}
+
+footer div a{
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+footer div a:hover{
+  color: red;
+}

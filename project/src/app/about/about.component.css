@@ -1,0 +1,23 @@
+.inst{
+  font-weight: bold;
+  outline: none;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.inst:hover{
+  color: red;
+}
+
+h2{
+  width: 500px;
+  padding: 50px;
+}
+
+div{
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

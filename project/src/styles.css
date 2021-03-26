@@ -1,0 +1,12 @@
+body{
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+  background-image: url("assets/back1 - Copy.jpg");
+  background-size: 3000px;
+  color: white;
+}
+
+app-home img{
+  display: block;
+  margin: 50px;
+}
