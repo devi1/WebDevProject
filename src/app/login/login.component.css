@@ -1,0 +1,19 @@
+body div{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+body div button{
+  width: 100px;
+  padding: 5px 30px;
+  margin-left: 330px;
+  margin-right: 300px;
+  margin-top: 30px;
+  transform: scale(1.2);
+}
+body div input{
+  margin: 15px 250px;
+  transform: scale(1.2);
+}

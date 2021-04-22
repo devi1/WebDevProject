@@ -1,0 +1,14 @@
+[
+  {
+    "type": "DHL",
+    "price": 27990
+  },
+  {
+    "type": "KazPost 3D",
+    "price": 9890
+  },
+  {
+    "type": "KazPost",
+    "price": 2690
+  }
+]

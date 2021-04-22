@@ -1,0 +1,23 @@
+div.photos{
+  margin-left: 20px;
+  font-family: 'Kanit', sans-serif;
+  display: inline-block;
+}
+
+
+
+button {
+  width: 90px;
+  height: 40px;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+button:hover{
+  color: red;
+  cursor: pointer;
+}

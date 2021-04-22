@@ -1,0 +1,28 @@
+a{
+  color: white;
+}
+
+a:hover{
+  color: red;
+}
+
+footer{
+  margin-top: 100px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer div{
+  margin: 10px;
+}
+
+footer a{
+  color: white;
+  transition: all 0.3s ease;
+}
+
+footer a:hover{
+  color: red;
+}

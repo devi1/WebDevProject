@@ -1,0 +1,13 @@
+.container{
+  justify-content: center;
+  background-image: url("src/assets/back10.jpg");
+  background-size: 3000px;
+  color: white;
+}
+
+footer{
+  height: 1000px;
+  background-image: url("src/assets/back10.jpg");
+  background-size: 3000px;
+  margin-top: 0;
+}

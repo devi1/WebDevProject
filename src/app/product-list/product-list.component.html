@@ -1,0 +1,34 @@
+<body>
+  <div *ngFor="let product of products" style="display: inline-block">
+    <h3 style="margin: 50px">
+      <a
+        [title]="product.name + ' details'"
+        [routerLink]="['/products', product.id]">
+        <img src="{{product.image}}" alt="products" style="width: 150px">
+      </a>
+      <br>
+      <a
+        [title]="product.name + ' details'"
+        [routerLink]="['/products', product.id]"
+      >
+        {{ product.name }} - {{product.price}} ₸
+      </a>
+    </h3>
+
+    <p *ngIf="product.description">
+      Size: {{ product.description }}
+    </p>
+
+    <div style="margin-top: 10px">
+      <button (click)="share()">
+        Share
+      </button>
+    </div>
+
+      <app-product-alerts [product]="product" (notify)="onNotify()">
+      </app-product-alerts>
+    <div style="margin-top: 10px">
+      <!--<button (click)="addToFavorites(product)">Add to Favorites</button>-->
+    </div>
+  </div>
+</body>

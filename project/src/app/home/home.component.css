@@ -1,0 +1,181 @@
+/*
+
+.slider {
+  width: 1000px;
+  height: 1800px;
+  text-align: center;
+  overflow: hidden;
+}
+.slides {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.slides > div {
+  flex-shrink: 0;
+  width: 1000px;
+  height: 800px;
+  margin-right: 50px;
+  border-radius: 6px 6px 0 0;
+  background: #eee;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+.slider > a {
+  font-family: 'Kanit', sans-serif;
+  display: inline-flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  color: white;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 0 0.5rem 0;
+  position: relative;
+  transition: all 0.3s ease;
+}
+.slider > a:active {
+  transform: scale(2);
+  color: #1c87c9;
+}
+.slider > a:hover {
+  color: red;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Ropa Sans', sans-serif;
+}
+
+.slides-post{
+  height: 800px;
+}
+*/
+
+
+
+body {
+  margin: 0;
+  width: inherit;
+  text-align:center;
+  background: none;
+}
+
+.simple-ss {
+  width:533px;
+  height:800px;
+  background-color: #eeeeee;
+  background-image: url("/assets/slide.jpg");
+  background-size: 1600px, 800px;
+  animation-name: slide;
+  animation-duration: 10s;
+  animation-direction: normal;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  border-radius: 6px;
+  margin: auto;
+}
+
+.simple-ss1 {
+  width:533px;
+  height:800px;
+  background-color: #eeeeee;
+  background-image: url("/assets/slide1.jpg");
+  background-size: 1600px, 800px;
+  animation-name: slide;
+  animation-duration: 10s;
+  animation-direction: normal;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  border-radius: 6px;
+  margin: auto;
+}
+
+.simple-ss2 {
+  width:533px;
+  height:800px;
+  background-color: #eeeeee;
+  background-image: url("/assets/slide2.jpg");
+  background-size: 1600px, 800px;
+  animation-name: slide;
+  animation-duration: 10s;
+  animation-direction: normal;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  border-radius: 6px;
+  margin: auto;
+}
+
+.price{
+  height: 800px;
+  margin: auto;
+  border-radius: 6px;
+}
+
+.price-block{
+  margin-top: 50px;
+}
+
+@keyframes slide {
+  0% {background-position:0 0;}
+  16.66% {background-position:0 0;}
+  33.32% {background-position:-533px 0;}
+  49.98% {background-position:-533px 0;}
+  66.64% {background-position:-1067px 0;}
+  83.30% {background-position:-1067px 0;}
+  100% {background-position:0 0;}
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+a:hover{
+  color: red;
+}
+
+footer{
+  margin-top: 50px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer div{
+  margin: 10px;
+}
+
+.prod-desc{
+  display: flex;
+  align-items: center;
+}
+
+body div div h1{
+  width: 500px;
+  margin: auto;
+}
+
+.main-block{
+  justify-content: center;
+  align-items: center;
+
+}

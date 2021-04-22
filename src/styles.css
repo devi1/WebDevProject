@@ -1,0 +1,173 @@
+/* Global Styles */
+
+* {
+  font-family: 'Kanit', Arial, sans-serif;
+
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+router-outlet + *  {
+  padding: 0 16px;
+}
+
+/* Text */
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h1, h2 {
+  font-weight: lighter;
+}
+
+p {
+  font-size: 14px;
+}
+
+/* Hyperlink */
+
+a {
+  cursor: pointer;
+  color: #6c6cee;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: red;
+}
+
+/* Input */
+
+input {
+  font-size: 14px;
+  border-radius: 2px;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #BDBDBD;
+}
+
+label {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 4px;
+  display: block;
+  text-transform: uppercase;
+}
+
+/* Button */
+.button, button {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 2px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #444499;
+  color: white;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.button:hover, button:hover {
+  opacity: 0.8;
+  font-weight: normal;
+}
+
+.button:disabled, button:disabled {
+  opacity: 0.5;
+  cursor: auto;
+}
+
+/* Top Bar */
+
+app-top-bar {
+  width: 100%;
+  height: 68px;
+  background-image: url("src/assets/back10.jpg");
+  background-size: 3000px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+app-top-bar a {
+  color: white;
+  margin: 0;
+  transition: all 0.3s ease;
+}
+
+app-top-bar a:hover{
+  color: red;
+}
+
+/* Checkout Cart, Shipping Prices */
+
+.cart-item, .shipping-item {
+  width: 100%;
+  min-width: 400px;
+  max-width: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 32px;
+  margin-bottom: 8px;
+  border-radius: 2px;
+  background-color: #EEEEEE;
+
+}
+
+app-login{
+  text-align: center;
+}
+
+footer{
+  color: white;
+  margin-top: 400px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer div{
+  margin: 10px;
+}
+
+footer a{
+  color: white;
+  transition: all 0.3s ease;
+}
+
+footer a:hover{
+  color: red;
+}
+
+a{
+  transition: all 0.3s ease;
+}
+
+a:hover{
+  color: red;
+}
+
